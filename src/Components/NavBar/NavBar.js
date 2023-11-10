@@ -11,7 +11,7 @@ const NavBar = () => {
     ]
     return (
         <nav>
-            <ul>
+            <ul className='flex'>
                 {
                     routes.map(route=><Link key={route.id} route={route}></Link>)
                 }
